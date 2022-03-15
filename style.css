@@ -4,6 +4,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-size: calc(0.75em + 1vmin);
+}
+
+h1 {
+    font-size: clamp(1.5em, 4vw, 2.5em);
+}
+
+h2 {
+    font-size: clamp(1.2em, 4vw, 2.4em);
+}
+
+p {
+    font-size: clamp(0.6em, 4vw, 1.2em);
 }
 
 .container {
@@ -175,6 +188,7 @@ input[type="checkbox"] {
     height: 100vh;
     width: 1370px;
     padding-top: 200px;
+    text-align: center;
 }
 
 .section-header .slide h1 {
@@ -184,12 +198,8 @@ input[type="checkbox"] {
     font-size: 52.6847px;
     line-height: 62px;
     color: #fff;
-}
-
-.section-header .slide-wrapper {
-    width: calc(1370px * 4);
-    animation: slide 20s ease infinite;
-    -webkit-animation: slide 20s ease infinite;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
 }
 
 .section-header .slide:nth-child(1) {
@@ -206,6 +216,12 @@ input[type="checkbox"] {
 
 .section-header .slide:nth-child(4) {
     background: rgba(44, 55, 58, 0.589);
+}
+
+.section-header .slide-wrapper {
+    width: calc(1370px * 4);
+    animation: slide 20s ease infinite;
+    -webkit-animation: slide 20s ease infinite;
 }
 
 @keyframes slide {
