@@ -12,7 +12,7 @@ body {
     font-size: 100%;
 }
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .container {
@@ -403,6 +403,10 @@ input[type="checkbox"] {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
+    .section-about {
+        margin-bottom: 8px;
+        padding-bottom: 25px;
+    }
 }
 @media (max-width: 670px) {
     .section-about .about_us {
@@ -410,5 +414,65 @@ input[type="checkbox"] {
     }
     .section-about p {
         font-size: 16px;
+    }
+    .section-about {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+}
+
+/* ===========Section-reasons */
+
+.section-reasons {
+    text-align: center;
+    text-justify: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.section-reasons h1 {
+    font-size: 34px;
+}
+.section-reasons h6 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section-reasons i {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #f9995d;
+}
+.section-reasons .row {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: 40px;
+}
+
+.section-reasons .card {
+    border: 0.2px solid rgba(221, 221, 221, 0.904);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 10px;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+    .section-reasons .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+    .section-reasons .row {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
