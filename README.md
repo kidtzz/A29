@@ -1,4 +1,4 @@
-# Langding Page TheBox
+# Landing Page TheBox
 
 
 ## Image Design 
