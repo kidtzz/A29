@@ -350,7 +350,61 @@ input[type="checkbox"] {
     }
 }
 
-/* ==========section-About */
+/* ============Section-reasons======================== */
+
+.section-reasons {
+    text-align: center;
+    text-justify: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.section-reasons h1 {
+    font-size: 34px;
+}
+.section-reasons h6 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section-reasons i {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #f9995d;
+}
+.section-reasons .row {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: 40px;
+}
+
+.section-reasons .card {
+    border: 0.2px solid rgba(221, 221, 221, 0.904);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 10px;
+}
+
+@media (min-width: 600px) {
+    .section-reasons .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .section-reasons .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ========================Section-About============================= */
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -421,29 +475,34 @@ input[type="checkbox"] {
     }
 }
 
-/* ===========Section-reasons */
-
-.section-reasons {
-    text-align: center;
-    text-justify: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+/* ===============Section-services ================== */
+.section-services {
+    margin: 25px 0;
 }
 
-.section-reasons h1 {
+.section-services .heading h2 {
+    text-align: center;
     font-size: 34px;
 }
-.section-reasons h6 {
-    margin-bottom: 10px;
-    font-size: 18px;
+.section-services .services-card {
+    margin-left: 17%;
 }
 
-.section-reasons i {
-    font-size: 35px;
-    margin-bottom: 15px;
-    color: #f9995d;
+.section-services .box:hover {
+    opacity: 1;
 }
-.section-reasons .row {
+.section-services .box img {
+    width: 15%;
+    display: block;
+    margin: 15% auto 10% auto;
+}
+.section-services .box p {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15%;
+}
+
+.section-services .services-card {
     text-align: left;
     max-width: 1200px;
     margin: 0 auto;
@@ -452,9 +511,11 @@ input[type="checkbox"] {
     margin-top: 40px;
 }
 
-.section-reasons .card {
+.section-services .box {
+    color: white;
+    background-color: #2947a9;
     border: 0.2px solid rgba(221, 221, 221, 0.904);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -462,17 +523,23 @@ input[type="checkbox"] {
     -o-border-radius: 5px;
     margin: 0 10px;
 }
+.section-services .construction,
+.section-services .consultation,
+.section-services .architecture {
+    background-color: #fff;
+    color: black;
+}
 
-/* Screen larger than 600px? 2 column */
+/* untuk tablet */
+
 @media (min-width: 600px) {
-    .section-reasons .row {
+    .section-services .services-card {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
-    .section-reasons .row {
+    .section-services .services-card {
         grid-template-columns: repeat(3, 1fr);
     }
 }
