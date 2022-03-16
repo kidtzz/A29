@@ -392,13 +392,13 @@ input[type="checkbox"] {
     margin: 0 10px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 991px) {
     .section-reasons .row {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     .section-reasons .row {
         grid-template-columns: repeat(3, 1fr);
     }
