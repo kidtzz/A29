@@ -11,16 +11,8 @@
 body {
     font-size: 100%;
 }
-h1 {
-    font-size: clamp(1.5em, 4vw, 2.5em);
-}
-
-h2 {
-    font-size: clamp(1.2em, 4vw, 2.4em);
-}
-
 p {
-    font-size: clamp(0.6em, 4vw, 1.2em);
+    font-size: 18px;
 }
 
 .container {
@@ -355,5 +347,68 @@ input[type="checkbox"] {
         80% {
             margin-left: calc(-380px * 3);
         }
+    }
+}
+
+/* ==========section-About */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.section-about {
+    margin-top: 10px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+
+.section-about .about_us {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.section-about .content {
+    background-color: #2947a9;
+    color: white;
+    float: right;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about .btn {
+    margin-top: 20px;
+    background: white;
+    color: #2947a9;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.section-about .btn:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 920px) {
+    .section-about .about_us {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 670px) {
+    .section-about .about_us {
+        width: 100%;
+    }
+    .section-about p {
+        font-size: 16px;
     }
 }
