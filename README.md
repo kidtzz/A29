@@ -2,7 +2,7 @@
 
 ## Live demo
 
-Check the live demo here 👉️ [here]( https://thebox-fga.netlify.app/ )
+Check live demo here 👉️ [here]( https://thebox-fga.netlify.app/ )
 
 
 
