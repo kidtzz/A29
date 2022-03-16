@@ -7,7 +7,7 @@ Check live demo here 👉️ [here]( https://thebox-fga.netlify.app/ )
 ## Group Members (A29)
 
 1. Bangkit Prasetyo  [github]( https://github.com/kidtzz ) 
-2. Basthian Alfayet [github] (https://github.com/basthianalfayet )
+2. Basthian Alfayet [github]( https://github.com/basthianalfayet  ) 
 3. Erly Nurviani  [github]( https://github.com/erlynurviani  ) 
 4. Cut Putriani  
 5. Devi Rachmawati [github]( https://github.com/greenteak7  ) 
