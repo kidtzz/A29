@@ -4,7 +4,7 @@
 
 Check live demo here 👉️ [here]( https://thebox-fga.netlify.app/ )
 
-## Member Group
+## Group Members
 
 1. Bangkit Prasetyo 
 2. Basthian Alfayet
